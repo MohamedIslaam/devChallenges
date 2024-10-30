@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #121826;
+}
+    
+.container{
+    border: 1px solid #383F4C;
+    color: whitesmoke;
+    background-color: #212936;
+    width: 50vw;
+    min-width: 250px;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container h1{
+    margin-bottom: 30px;
+}
+
+.container form div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.container form div input{
+    border: 2px solid #383F4C;
+    background: transparent;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.container form .btn-class{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.f-btn{
+    width: 30%;
+    padding: 10px 0px;
+    border: 0;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: #7D52E7;
+    font-weight: bold;
+}
+
+
+.nav,.dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: #394050;
+}
+
+.nav{
+    column-gap: 20px;
+}
+
+.nav .dot div{
+    width: 10px;
+    height: 10px;
+    background-color: #394050;
+    border-radius: 50%;
+}
+
+.nav .dot .d1{
+    box-shadow: 0px 0px 1px 5px #342D61;
+    background-color: #753EE4;
+}
+
+.form-cont2 h1{
+    font-size: 170%;
+}
+.container .s-cont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container .s-cont .op{
+    border: 2px solid #383F4C;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: gray;
+    background-color: #394050;
+    &:hover{
+        background-color: #652CD1;
+        color: white;
+    }
+}
+
+.container .s-cont .cs-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.form-cont3 span,li{
+    font-weight: bold;
+    color: white;
+}
+
+.form-cont3 .s-cont p,dt{
+    font-weight: bold;
+    color: gray;
+}
+
+.container{
+    display: none;
+}

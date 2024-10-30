@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Multi-step Register Form</title>
+</head>
+<body>
+    <div class="container form-cont1" id="cont">
+        <h1>Register</h1>
+        <form action="">
+            <div class="r1">
+                <label for="">Name</label>
+                <input type="text" id="name" placeholder="enter your name">
+            </div>
+            <div class="r2">
+                <label for="">Email</label>
+                <input type="text" id="mail" placeholder="example@gmail.com">
+            </div>
+            <div class="btn-class"><button type="button" id="f-btn" class="f-btn">Continue</button></div>
+        </form>
+    </div>
+    <div class="container form-cont2" id="cont">
+        <h1 >Which topics you are intrested in?</h1>
+        <div class="s-cont">
+            <div class="opt1 op" value="sd">Software Development</div>
+            <div class="opt2 op" value="ue">User Experience</div>
+            <div class="opt3 op" value="gd">Graphic Design</div>
+            <div class="cs-btn"><button type="button" id="s-btn" class="f-btn">Continue</button></div>
+        </div>
+    </div>
+    <div class="container form-cont3" id="cont">
+        <h1 >Summary</h1>
+        <div class="s-cont">
+            <div class="r1">
+                <p>Name: <span id="nm"></span></p>
+                <p>Email: <span id="ml"></span></p>
+            </div>
+            <div class="r2">
+                <dl>
+                    <dt>Topics:</dt>
+                    <dd id="list">
+                    </dd>
+                </dl>
+            </div>
+            <div class="fn-btn cs-btn"><button id="fn-btn" class="f-btn">Confirm</button></div>
+        </div>
+    </div>
+    <div class="nav">
+        <p>Step <span id="inc">1</span> of 3</p>
+        <div class="dot">
+            <div class="d1 d" id="d1"></div>
+            <div class="d2 d" id="d2"></div>
+            <div class="d3 d" id="d3"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
